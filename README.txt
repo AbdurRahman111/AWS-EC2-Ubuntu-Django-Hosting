@@ -99,3 +99,7 @@ to make HTTPS request:
 sudo systemctl reload nginx
 
 
+if you changes anything need to stop supervisor and start again
+sudo systemctl stop supervisor
+sudo systemctl start supervisor
+
